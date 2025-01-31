@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="About Me - A powerful message using HTML media elements"
+    />
+    <title>About Me</title>
+  </head>
+  <body>
+    <header>
+      <h1>About Me</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="form.html">Application Form</a>
+        <a href="table.html">Schools & Courses</a>
+        <a href="about.html">About Me</a>
+      </nav>
+    </header>
+
+    <main>
+      <h2>My Journey</h2>
+      <p>
+        Hello! My name is John Doe, and I am a passionate software engineer with
+        a strong interest in solving real-world problems through technology.
+        Below is a glimpse of my journey and aspirations.
+      </p>
+
+      <h3>My Picture</h3>
+      <picture>
+        <source media="(max-width: 600px)" srcset="./tolu.jpeg" />
+        <source media="(max-width: 1024px)" srcset="./tolu.jpeg" />
+        <source media="(min-width: 1025px)" srcset="./tolu.jpeg" />
+        <img src="./tolu.jpeg" alt="My picture" />
+      </picture>
+
+      <h3>My Motivation</h3>
+      <audio controls>
+        <source src="motivation.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <h3>For my babe</h3>
+      <video controls width="600">
+        <source src="babe.mp4" type="video/mp4" />
+        Your browser does not support the video element.
+      </video>
+
+      <h3>My Favorite Quote</h3>
+      <blockquote>
+        <p>
+          "The only way to do great work is to love what you do." - Steve Jobs
+        </p>
+      </blockquote>
+    </main>
+
+    <footer>
+      <p>Address: 12 Hassan Alao close, Ikeja, Lagos State</p>
+      <p>&copy; 2023 Makinde Tolulope. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

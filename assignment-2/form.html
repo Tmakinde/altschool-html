@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Alt School Application Form" />
+    <title>Alt School Application Form</title>
+  </head>
+  <body>
+    <header>
+      <h1>Alt School Application Form</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="form.html">Application Form</a>
+        <a href="table.html">Schools & Courses</a>
+        <a href="about.html">About Me</a>
+      </nav>
+    </header>
+    <br /><br />
+
+    <main>
+      <form action="#" method="post">
+        <label for="first-name">First Name:</label>
+        <input
+          type="text"
+          id="first-name"
+          name="first-name"
+          required
+        /><br /><br />
+
+        <label for="last-name">Last Name:</label>
+        <input
+          type="text"
+          id="last-name"
+          name="last-name"
+          required
+        /><br /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br /><br />
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+          <option value="">Select</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option></select
+        ><br /><br />
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required /><br /><br />
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required /><br /><br />
+
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country" required /><br /><br />
+
+        <label for="pwd">Password:</label>
+        <input type="password" id="pwd" name="password" required /><br /><br />
+
+        <label for="confirm-pwd">Confirm Password:</label>
+        <input
+          type="password"
+          id="confirm-pwd"
+          name="confirm password"
+          required
+        /><br /><br />
+
+        <button type="submit">Submit Application</button>
+      </form>
+    </main>
+
+    <footer>
+      <p>Address: 123 Alt School Street, Lagos, Nigeria</p>
+      <p>&copy; 2023 John Doe. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
